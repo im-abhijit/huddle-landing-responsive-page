@@ -67,7 +67,6 @@ button{
     border-radius: 100px;
     border: none;
     margin-top: 20px;
-   
     color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     box-shadow: 10px 10px 5px hsl(257, 40%, 49%);
@@ -88,8 +87,14 @@ i{
     width: 32px;
     text-align: center;
 }
- 
-
+i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
 
 @media screen and (min-width:375px) {
     body{
